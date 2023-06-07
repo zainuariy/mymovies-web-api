@@ -1,0 +1,34 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+body {
+  height: 100vh;
+  background-color: #868686;
+}
+
+main {
+  font-size: 16px;
+  width: 90vw;
+  max-width: 37.5em;
+  padding: 1.5em 1.5em;
+  background-color: #201f28;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 53%;
+  left: 50%;
+  border-radius: 0.6em;
+  box-shadow: 1.2em 2em 3em rgba(0, 0, 0, 0.2);
+}
+.msg {
+  text-align: center;
+  color: #fff;
+  margin-top: 20px;
+}
+@media screen and (max-width: 600px) {
+  main {
+    font-size: 14px;
+  }
+}
